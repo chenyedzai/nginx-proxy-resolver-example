@@ -1,0 +1,5 @@
+FROM nginx:alpine
+
+RUN mkdir /usr/share/nginx/html/v2 && \
+    echo "API v2" > /usr/share/nginx/html/v2/index.html && \
+    echo "Site B" > /usr/share/nginx/html/index.html
