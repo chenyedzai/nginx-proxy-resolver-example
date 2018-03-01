@@ -1,5 +1,5 @@
 FROM nginx:alpine
 
-RUN mkdir /usr/share/nginx/html/v3 && \
+RUN mkdir /usr/share/nginx/html/v4 && \
     echo "API v4" > /usr/share/nginx/html/v4/index.html && \
     echo "Site A" > /usr/share/nginx/html/index.html
